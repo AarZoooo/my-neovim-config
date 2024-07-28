@@ -17,8 +17,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup( "plugins" )
 require("transparent")
-require("run")
-
 -- Keymaps
 vim.keymap.set('n', '<Leader>e', ':NvimTreeToggle<CR>', {})
 vim.api.nvim_set_keymap('n', '<leader>rnu', ':set relativenumber!<CR>', { noremap = true, silent = true })
