@@ -51,6 +51,8 @@ git clone https://github.com/AarZoooo/custom-neovim-config ~/AppData/Local/nvim/
 #### Windows (pwsh)
 
 ```bash
+require("run")
+
 git clone https://github.com/AarZoooo/custom-neovim-config $env:USERPROFILE\AppData\Local\nvim; nvim
 ```
 
