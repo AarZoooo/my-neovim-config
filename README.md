@@ -39,19 +39,19 @@ Now that we have NeoVim installed in our systems, we can apply our configs on it
 #### Linux
 
 ```bash
-git clone https://github.com/AarZoooo/custom-neovim-config ~/.config/nvim/ && nvim
+git clone https://github.com/AarZoooo/my-neovim-config ~/.config/nvim/ && nvim
 ```
 
 #### Windows (cmd)
 
 ```bash
-git clone https://github.com/AarZoooo/custom-neovim-config ~/AppData/Local/nvim/ && nvim
+git clone https://github.com/AarZoooo/my-neovim-config ~/AppData/Local/nvim/ && nvim
 ```
 
 #### Windows (pwsh)
 
 ```bash
-git clone https://github.com/AarZoooo/custom-neovim-config $env:USERPROFILE\AppData\Local\nvim; nvim
+git clone https://github.com/AarZoooo/my-neovim-config $env:USERPROFILE\AppData\Local\nvim; nvim
 ```
 
 Running this single command in your respective systems will clone the repository directly into a specific folder which will be read by NeoVim when it is launched. The command also opens NeoVim automatically so you don't need to worry about anything. When it completes loading the plugins, you can start using it. Happy Coding!
